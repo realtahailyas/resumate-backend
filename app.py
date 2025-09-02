@@ -1064,3 +1064,6 @@ def parse_resume_file():
 
 if __name__ == '__main__':
     app.run(debug=True)
+@app.route("/")
+def home():
+    return "🚀 Flask backend is live on Render!"
